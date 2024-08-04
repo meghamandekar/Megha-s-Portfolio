@@ -23,10 +23,10 @@ function Home() {
   const avatar = useMemo(() => (
     <div className="avatar">
       <div className="card">
-        <img src="/ritikProfilePic.jpeg" alt="Profile" />
+        <img src="/meghaProfilePic.jpg" alt="Profile" />
         <div className="info">
           <div>Full Stack Developer (MERN)</div>
-          <div>Frontend (ReactJS)</div>
+          <div>Frontend </div>
           <div>Backend</div>
         </div>
       </div>

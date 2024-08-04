@@ -104,7 +104,7 @@ section.home{
         font-family: 'MuseoModerno', system-ui;
         & .name span {
             background-image: linear-gradient(to right, #7BE728, #F3265F, #7F40AC, #7BE728);
-            background-size: 200% auto;
+            background-size: 250% auto;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text; /* For Safari and older versions of Chrome */
             -moz-background-clip: text; /* For Firefox */
@@ -365,7 +365,8 @@ section.contacts{
         padding-top: 70px;
         & .content {
             & .name {
-                font-size: 4em;
+                font-size: 10rem;
+                font-weight: bold; 
             }
             & a {
                 margin: auto;

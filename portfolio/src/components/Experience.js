@@ -7,15 +7,17 @@ function Internships() {
   const [listInternship] = useState([
     {
       name: 'SDE Intern',
-      des: 'As a Software Developer Intern, I specialized in backend development using Node.js, Express, and MongoDB. Notably, I developed multiple APIs for crucial features, showcasing my ability to create robust solutions. Additionally, I leveraged Flutter to build intuitive features on the frontend, demonstrating my versatility in contributing to both backend and frontend aspects of software development.',
+      des: ' Developed Responsive Web Applications using HTML, CSS, JavaScript, Python and Django.',
       organisation: 'Nextun Technology',
-      techStack: 'HTML, CSS, Javascript, Python, Django'
+      techStack: 'HTML, CSS, Javascript, Python, Django',
+      images: '/Nextun1.png '
     },
     {
       name: 'Full Stack Developer',
-      des: "I developed and launched two mobile apps for Nagpur's veterinary community. One, built with Flutter and Dart, featured offline functionality using TensorFlow Lite. The other, with its backend on Azure, offered real-time updates. Tailored to meet the distinct needs of veterinary professionals, students, cattle farmers, and gaushalas, these apps underscore my commitment to delivering specific and impactful solutions for the local veterinary community.",
+      des: "Developed full-stack web applications with user-friendly frontend interfaces and scalable backend systems, delivering Real-Time Live Scores and Match Information.",
       organisation: 'Veerandar IT Solutions',
-      techStack: 'HTML, CSS, Javascript, ReactJS, Firebase'
+      techStack: 'HTML, CSS, Javascript, ReactJS, Firebase',
+      images: '/Vreendar1.png'
     },
   ]);
 

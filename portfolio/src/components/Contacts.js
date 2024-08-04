@@ -4,11 +4,6 @@ import CustomHook from './CustomHook';
 function Contacts() {
   const [listContacts] = useState([
     {
-      title: 'Phone Number',
-      url: '8469793069',
-      value: '+918469793069'
-    },
-    {
       title: 'Email',
       url: 'meghamandekar220701@gmail.com',
       value: 'meghamandekar220701@gmail.com'
@@ -25,6 +20,11 @@ function Contacts() {
       title: 'GitHub',
       url: 'https://github.com/meghamandekar',
       value: '/github-icon.png'
+    },
+    {
+      title: 'Twitter',
+      url:'https://x.com/Meghaaa2207',
+      value: '/twitter.png'
     },
     {
       title: 'LeetCode',
@@ -48,17 +48,10 @@ function Contacts() {
       <div className="list" ref={(el) => el && divs.current.push(el)}>
         {listContacts.map((value, key) => (
           <div className='item' key={key}>
-            {value.title === 'Phone Number' ? (
-              <div>
-                <h3>{value.title}</h3>
-                <a href={`tel:${value.url}`} target="_blank" rel="noreferrer" style={{ color: 'white' }}>{value.value}</a>
-              </div>
-            ) : (
-              <div>
-                <h3>{value.title}</h3>
-                <a href={`mailto:${value.url}`} target="_blank" rel="noreferrer" style={{ color: 'white' }}>{value.value}</a>
-              </div>
-            )}
+            <div>
+              <h3>{value.title}</h3>
+              <a href={`mailto:${value.url}`} target="_blank" rel="noreferrer" style={{ color: 'white' }}>{value.value}</a>
+            </div>
           </div>
         ))}
       </div>
